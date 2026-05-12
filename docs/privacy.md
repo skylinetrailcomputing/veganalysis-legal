@@ -1,6 +1,6 @@
 # Privacy Policy — Veganalysis
 
-**Last updated:** 2026-05-03
+**Last updated:** 2026-05-11
 **Effective:** _(set when Veganalysis is first distributed beyond the
 developer's own devices)_
 
@@ -24,8 +24,32 @@ someone (your IP address, the request timing) asked about that
 barcode. Open Food Facts is a separate organization with its own
 privacy practices: <https://world.openfoodfacts.org/>.
 
-That single outbound network call is the entirety of Veganalysis's
-data plane.
+That outbound Open Food Facts call is the only data plane
+Veganalysis initiates on its own. There is one additional path,
+**user-initiated only**, described next.
+
+## Voluntary feedback submission
+
+Veganalysis includes an in-app "Send Feedback" feature that lets
+you compose and send a feedback bundle to Skyline Trail Computing.
+**If you choose to use the in-app "Send Feedback" feature, the
+contents you compose are received by us via your email client.
+This is voluntary and user-initiated; no other data is collected.**
+
+The bundle contains only the scans you have flagged in-app (either
+to report a verdict you disagree with, or to attach a barcode for a
+product you scanned via the OCR fallback). Camera frames, location,
+device identifiers, account information, and product images are
+never included. You see the email — including the JSON attachment
+— in your own mail composer before sending; you can edit, attach,
+or discard at will. Nothing is sent automatically, in the
+background, or without your explicit Send action in your mail
+client.
+
+If your device does not have a configured mail account, the app
+offers a system Share Sheet as a fallback so you can route the
+bundle through another messaging app of your choice. That choice
+remains entirely yours.
 
 ## What Veganalysis stores on your device
 
