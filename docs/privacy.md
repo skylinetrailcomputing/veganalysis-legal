@@ -1,6 +1,6 @@
 # Privacy Policy — Veganalysis
 
-**Last updated:** 2026-05-11
+**Last updated:** 2026-05-12
 **Effective:** _(set when Veganalysis is first distributed beyond the
 developer's own devices)_
 
@@ -30,26 +30,39 @@ Veganalysis initiates on its own. There is one additional path,
 
 ## Voluntary feedback submission
 
-Veganalysis includes an in-app "Send Feedback" feature that lets
-you compose and send a feedback bundle to Skyline Trail Computing.
-**If you choose to use the in-app "Send Feedback" feature, the
-contents you compose are received by us via your email client.
-This is voluntary and user-initiated; no other data is collected.**
+Veganalysis includes two in-app features that let you compose and
+send a message to Skyline Trail Computing through your own email
+client: **"Send Feedback"** (which packages scans you have
+flagged in-app into a feedback bundle) and **"Report a Problem"**
+(a free-text draft for general app problems, with no attached
+scan data). **In both cases, the contents you compose are
+received by us via your email client. This is voluntary and
+user-initiated; no other data is collected.**
 
-The bundle contains only the scans you have flagged in-app (either
-to report a verdict you disagree with, or to attach a barcode for a
-product you scanned via the OCR fallback). Camera frames, location,
-device identifiers, account information, and product images are
-never included. You see the email — including the JSON attachment
-— in your own mail composer before sending; you can edit, attach,
-or discard at will. Nothing is sent automatically, in the
-background, or without your explicit Send action in your mail
-client.
+The "Send Feedback" bundle contains only the scans you have
+flagged in-app (either to report a verdict you disagree with, or
+to attach a barcode for a product you scanned via the OCR
+fallback). Camera frames, location, device identifiers, account
+information, and product images are never included. You see the
+email — including the JSON attachment — in your own mail composer
+before sending; you can edit, attach, or discard at will. Nothing
+is sent automatically, in the background, or without your
+explicit Send action in your mail client.
+
+The "Report a Problem" draft contains the text you write plus a
+small auto-filled context block — your app version, iOS version,
+device model class (e.g., `iPhone16,2`), and locale. None of
+these uniquely identify you or your device. The draft has no
+attachment. As with "Send Feedback", you see and can edit the
+entire message in your own mail composer before sending, and
+nothing is sent without your explicit Send action.
 
 If your device does not have a configured mail account, the app
-offers a system Share Sheet as a fallback so you can route the
-bundle through another messaging app of your choice. That choice
-remains entirely yours.
+offers a system Share Sheet for "Send Feedback" so you can route
+the bundle through another messaging app of your choice. For
+"Report a Problem", the app surfaces our contact email address as
+selectable text so you can copy it into the messaging app of your
+choice. That choice remains entirely yours in either case.
 
 ## What Veganalysis stores on your device
 
