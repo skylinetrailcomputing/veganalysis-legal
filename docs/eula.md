@@ -151,6 +151,16 @@ In those jurisdictions the exclusions in this Section 5 apply only to
 the maximum extent permitted by applicable law, and you may have
 additional statutory rights that this Agreement does not affect.
 
+### 5.6 Data and privacy — see Privacy Policy
+
+Veganalysis's handling of any data it processes — including
+information sent to Open Food Facts as described in Section 3 — is
+governed by the Veganalysis Privacy Policy at
+<https://skylinetrailcomputing.github.io/veganalysis-legal/privacy.html>.
+Any rights you may have under applicable data-protection law (for
+example, GDPR, CCPA, or the Colorado Privacy Act) are addressed in
+that policy, not in this Agreement.
+
 ## 6. Limitation of liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
@@ -169,7 +179,7 @@ AGGREGATE LIABILITY OF SKYLINE AND ITS MEMBERS, MANAGERS, OFFICERS,
 EMPLOYEES, AGENTS, AND AFFILIATES ARISING OUT OF OR RELATING TO THE
 APP OR THIS AGREEMENT IS LIMITED TO THE GREATER OF (A) THE AMOUNT
 YOU PAID FOR THE APP (WHICH IS ZERO, AS THE APP IS PROVIDED FREE OF
-CHARGE) OR (B) TEN UNITED STATES DOLLARS ($10.00 USD).
+CHARGE) OR (B) ONE HUNDRED UNITED STATES DOLLARS ($100.00 USD).
 
 Some jurisdictions do not allow the limitation or exclusion of
 liability for incidental or consequential damages. In those
@@ -246,10 +256,10 @@ prohibited or restricted parties.
 
 This Agreement is governed by the laws of the State of Colorado,
 United States, without regard to its conflict-of-laws principles.
-The federal and state courts located in Denver County, Colorado
-have exclusive jurisdiction over any dispute arising out of or
-relating to this Agreement or the App, and you consent to the
-personal jurisdiction of those courts.
+The federal and state courts located in the City and County of
+Denver, Colorado have exclusive jurisdiction over any dispute
+arising out of or relating to this Agreement or the App, and you
+consent to the personal jurisdiction of those courts.
 
 This Section 10 does not limit any non-waivable rights you may have
 under the consumer-protection laws of your country, state, or
