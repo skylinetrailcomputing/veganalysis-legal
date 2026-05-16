@@ -6,7 +6,7 @@ developer's own devices)_
 
 **Publisher:** Skyline Trail Computing LLC (Colorado, USA)
 **App:** Veganalysis (iOS; Android planned)
-**Contact:** 1bradley.martin1+veganalysis@gmail.com  ·  GitHub Issues:
+**Contact:** legal@skylinetrailcomputing.com  ·  GitHub Issues:
 <https://github.com/skylinetrailcomputing/veganalysis-legal/issues>
 
 ## Summary
@@ -162,7 +162,7 @@ the app's release notes, and in the commit history of this repository.
 
 ## Contact
 
-- **Email:** 1bradley.martin1+veganalysis@gmail.com
+- **Email:** legal@skylinetrailcomputing.com
 - **GitHub Issues:**
   <https://github.com/skylinetrailcomputing/veganalysis-legal/issues>
 

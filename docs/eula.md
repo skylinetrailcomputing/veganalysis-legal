@@ -6,7 +6,7 @@ the developer's own devices)_
 
 **Licensor:** Skyline Trail Computing LLC (Colorado, USA)
 **App:** Veganalysis (iOS; Android planned)
-**Contact:** 1bradley.martin1+veganalysis@gmail.com  ·  GitHub Issues:
+**Contact:** legal@skylinetrailcomputing.com  ·  GitHub Issues:
 <https://github.com/skylinetrailcomputing/veganalysis-legal/issues>
 
 This End User License Agreement (the **"Agreement"**) is a legal
@@ -294,5 +294,5 @@ continued use of the App after a material change constitutes
 acceptance of the modified Agreement.
 
 **Contact.** Questions about this Agreement should be sent to
-1bradley.martin1+veganalysis@gmail.com, or filed as an issue at
+legal@skylinetrailcomputing.com, or filed as an issue at
 <https://github.com/skylinetrailcomputing/veganalysis-legal/issues>.
