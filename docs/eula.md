@@ -39,6 +39,18 @@ granted in this Agreement.
 
 ## 2. Restrictions
 
+<!--
+CLEMENT REVIEW (§2 placement of reliance prohibition):
+The last bullet of this Restrictions section ("you will not rely on
+the App for any allergen, medical, or other safety-critical
+decision") is intentionally placed here, rather than only in §5
+Disclaimers, in order to trigger §7 indemnification on breach
+("use of the App in violation of this Agreement"). Please confirm
+the dual-placement enforceability play under Colorado law and across
+major US state-law surfaces, or advise whether to move to §5 only,
+duplicate in both §2 and §5, or use a different structure.
+-->
+
 You agree that you will not, and will not permit any third party to:
 
 - copy, modify, adapt, translate, or create derivative works of the
@@ -60,8 +72,8 @@ You agree that you will not, and will not permit any third party to:
 ## 3. Open Food Facts data
 
 When Veganalysis cannot identify a scanned product from its on-device
-database, it queries the **Open Food Facts** database to retrieve
-product information. Open Food Facts is an independent, non-profit
+database or cache, it queries the **Open Food Facts** database to
+retrieve product information. Open Food Facts is an independent, non-profit
 open-data project operated by the Open Food Facts Association
 (France). It is not affiliated with Skyline, and Skyline does not
 control the content of Open Food Facts.
@@ -114,6 +126,15 @@ intentionally written using opaque terms ("natural flavors,"
 "spices," etc.) that no automated system can resolve. Always verify
 with the manufacturer for definitive sourcing information about any
 product you intend to purchase or consume.
+
+Verdicts are presented in one of three states: **Vegan**, **Not
+vegan**, or **Needs review**. A **Needs review** verdict means the
+App could not reach a confident classification — typically because
+of ambiguous ingredient text, opaque terms, or incomplete data — and
+you are responsible for independently verifying the product before
+relying on it. You acknowledge that a **Needs review** verdict is
+not a softer form of **Vegan** and that you will not treat it as
+such.
 
 ### 5.2 Not for allergen safety
 
@@ -197,7 +218,19 @@ third-party claims, damages, liabilities, losses, costs, and expenses
 violation of any applicable law; or (c) your violation of the rights
 of any third party.
 
-## 8. Termination
+## 8. Feedback
+
+You may, at your option, send feedback, suggestions, problem reports,
+or other information ("**Feedback**") to Skyline via the App's "Send
+Feedback" and "Report a Problem" features or otherwise. You grant
+Skyline a perpetual, irrevocable, worldwide, royalty-free,
+non-exclusive license to use, reproduce, modify, create derivative
+works from, and otherwise exploit any Feedback for any purpose,
+including incorporating it into the App or related products. No
+attribution or compensation is owed to you for Skyline's use of
+Feedback.
+
+## 9. Termination
 
 This Agreement is effective until terminated.
 
@@ -210,11 +243,13 @@ this Agreement. On termination, your right to use the App ceases
 immediately and you must uninstall and delete all copies of the App.
 
 Sections 2 (Restrictions, with respect to materials you continue to
-hold), 5 (Disclaimers), 6 (Limitation of liability), 7
-(Indemnification), 9 (Apple App Store and Google Play), 10
-(Governing law), and 11 (Miscellaneous) survive termination.
+hold), 3 (Open Food Facts data), 5 (Disclaimers), 6 (Limitation of
+liability), 7 (Indemnification), 8 (Feedback), 10 (Apple App Store
+and Google Play), 11 (Arbitration and class-action waiver), 12
+(Governing law and venue), and 13 (Miscellaneous) survive
+termination.
 
-## 9. Apple App Store and Google Play
+## 10. Apple App Store and Google Play
 
 You acknowledge that this Agreement is between you and Skyline only,
 and not with Apple Inc. or Google LLC (each, a **"Marketplace"**).
@@ -252,20 +287,72 @@ designated by the U.S. Government as a "terrorist supporting"
 country, and (b) you are not listed on any U.S. Government list of
 prohibited or restricted parties.
 
-## 10. Governing law and venue
+## 11. Arbitration and class-action waiver
+
+**Please read this Section carefully.** To the maximum extent
+permitted by applicable law, this Section affects how disputes
+between you and Skyline are resolved.
+
+### 11.1 Binding arbitration
+
+To the maximum extent permitted by applicable law, you and Skyline
+agree that any dispute, claim, or controversy arising out of or
+relating to this Agreement, the App, or any information made
+available through the App ("Dispute") will be resolved by binding
+individual arbitration rather than in court, except that either
+party may bring an individual claim in small-claims court if the
+claim qualifies. Arbitration will be administered by a nationally
+recognized arbitration provider (such as the American Arbitration
+Association or JAMS) under that provider's then-current consumer
+arbitration rules, with the seat of arbitration in Denver, Colorado
+unless you and Skyline agree otherwise.
+
+### 11.2 Class-action and class-arbitration waiver
+
+To the maximum extent permitted by applicable law, you and Skyline
+each waive any right to bring or participate in any class action,
+collective action, mass action, or representative proceeding, and
+waive any right to class or representative arbitration. The
+arbitrator may not consolidate the claims of more than one person
+and may not preside over any form of representative proceeding.
+
+### 11.3 Thirty-day opt-out
+
+You may opt out of this Section 11 by sending written notice to
+Skyline at legal@skylinetrailcomputing.com within thirty (30) days
+of first agreeing to this Agreement, stating your name and your
+intent to opt out. If you opt out, all other provisions of this
+Agreement remain in full force and effect.
+
+### 11.4 Carve-outs and non-waivable rights
+
+This Section 11 does not apply to: (a) any claim or remedy that
+cannot be subject to binding arbitration or class-action waiver
+under applicable law (including, where applicable, claims for
+public injunctive relief); or (b) intellectual-property
+infringement claims brought by either party.
+
+Some jurisdictions do not enforce all aspects of arbitration or
+class-action-waiver provisions. In those jurisdictions this Section
+applies only to the maximum extent permitted by applicable law, and
+the remainder of this Agreement remains in full force and effect.
+
+## 12. Governing law and venue
 
 This Agreement is governed by the laws of the State of Colorado,
 United States, without regard to its conflict-of-laws principles.
-The federal and state courts located in the City and County of
-Denver, Colorado have exclusive jurisdiction over any dispute
-arising out of or relating to this Agreement or the App, and you
-consent to the personal jurisdiction of those courts.
+For any Dispute not subject to arbitration under Section 11
+(including, in particular, claims falling within Section 11.4 and
+individual small-claims-court actions), the federal and state
+courts located in the City and County of Denver, Colorado have
+exclusive jurisdiction, and you consent to the personal
+jurisdiction of those courts.
 
-This Section 10 does not limit any non-waivable rights you may have
+This Section 12 does not limit any non-waivable rights you may have
 under the consumer-protection laws of your country, state, or
 province of residence.
 
-## 11. Miscellaneous
+## 13. Miscellaneous
 
 **Entire agreement.** This Agreement, together with the Veganalysis
 Privacy Policy (<https://skylinetrailcomputing.github.io/veganalysis-legal/privacy.html>)
