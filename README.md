@@ -3,50 +3,47 @@
 Public-facing legal documents for Veganalysis (iOS / Android), published
 by Skyline Trail Computing LLC (Colorado, USA).
 
-## Status — currently private
+## Status — public, Pages enabled
 
-This repo will flip to **public**, with **GitHub Pages enabled**, when
-Veganalysis App Store submission first requires a stable Privacy Policy
-URL. Until then it stays private.
+Flipped public on 2026-05-16 to support the Veganalysis F&F TestFlight
+period. The in-app EULA and Privacy Policy reference
+`https://skylinetrailcomputing.github.io/veganalysis-legal/privacy.html`,
+and that URL must resolve for F&F testers who tap through — flipping
+at F&F prep rather than at App Store submission eliminates the
+F&F-period 404 window.
 
-The flip trigger sits at the end of the F&F gate sequence:
+`docs/privacy.md` and `docs/eula.md` are the authoritative sources;
+GitHub Pages publishes them as HTML from `main`.
 
-D-U-N-S issued → STC org Apple Developer account opened → App Store
-Connect submission for Veganalysis → Privacy Policy URL required → flip
-this repo public.
+The `Effective` date in both documents stays a placeholder until
+Veganalysis is first distributed beyond the developer's own devices
+(F&F TestFlight start). The `Last updated` date is set whenever the
+content materially changes.
 
-See `~/veganalysis/DISTRO_CHECKLIST.md` and
-`~/claude-workspace-2026/knowledge/legal-entity-for-apps.md` for the
-gating items.
+Pre-launch checklist still owed against this repo:
 
-When the flip happens:
-
-1. Apply the standard OSS protections:
-   `~/claude-workspace-2026/scripts/oss-repo-protect.sh skylinetrailcomputing/veganalysis-legal`
-   (per `~/claude-workspace-2026/knowledge/oss-repo-policy.md`).
-2. Enable Pages: Settings → Pages → Source = Deploy from a branch,
-   branch = `main`, folder = `/docs`.
-3. Confirm the served URL is reachable:
-   `https://skylinetrailcomputing.github.io/veganalysis-legal/privacy.html`.
-4. Set the `Effective` date in `docs/privacy.md` (currently a
-   placeholder).
-5. Verify the Open Food Facts privacy-policy deep-link in
+1. Verify the Open Food Facts privacy-policy deep-link in
    `docs/privacy.md` still resolves; update if their URL has shifted.
-6. Wire the URL into App Store Connect → App Privacy → Privacy Policy
-   URL, and into Google Play Console when the Android submission lands.
+2. Set the `Effective` dates in `docs/privacy.md` and `docs/eula.md`
+   on the day F&F TestFlight invitations first go out.
+3. Wire the Privacy Policy URL into App Store Connect → App Privacy,
+   and into Google Play Console when the Android submission lands.
 
 ## Contents
 
 - `docs/privacy.md` — Privacy Policy.
 - `docs/index.md` — landing page linking the policy and EULA.
-- `docs/eula.md` — **v0 draft landed 2026-05-16.** Custom End User
-  License Agreement covering license grant, restrictions, OFF/ODbL
-  data attribution, App-specific disclaimers (accuracy, allergen
-  safety, OFF data quality, not medical/dietary advice), limitation
-  of liability, Apple/Google third-party-beneficiary framing, and
-  Colorado governing law. **Producer-driven draft pending refinement
-  by Ryan Clement / Business & Technology Legal Group via the
-  client portal** — per
+- `docs/eula.md` — **v1 draft landed 2026-05-16** (v0 same day; v1
+  adds arbitration + class-action waiver §11, Feedback license §8,
+  "Needs review" verdict semantics in §5.1, OFF query precision in
+  §3, and an HTML-comment Clement-review flag on §2). Covers
+  license grant, restrictions, OFF/ODbL data attribution,
+  App-specific disclaimers (accuracy, allergen safety, OFF data
+  quality, not medical/dietary advice), limitation of liability,
+  feedback license, Apple/Google third-party-beneficiary framing,
+  arbitration and class-action waiver, and Colorado governing law.
+  **Producer-driven draft pending refinement by Ryan Clement /
+  Business & Technology Legal Group via the client portal** — per
   `~/claude-workspace-2026/knowledge/legal-entity-for-apps.md` §10
   status 2026-05-15 and the producer-driven posture captured in
   Veganalysis memory `attorney_posture_producer_driven.md`. Set
