@@ -13,19 +13,24 @@ developer's own devices)_
 
 Veganalysis is a barcode-scanning app that identifies likely non-vegan
 ingredients in packaged products. It runs on your device, holds no
-account, and **Skyline Trail Computing collects nothing about you, your
-scans, your usage, or your device.** There is no analytics SDK, no
-telemetry, no advertising, no in-app purchases.
+account, and **Skyline Trail Computing does not receive, store, or
+control personal information from your use of Veganalysis.** There is
+no analytics SDK, no telemetry, no advertising, and no in-app
+purchases. **Skyline does not sell or share personal information for
+targeted advertising and does not use personal information for
+advertising, analytics, profiling, or monetization.**
 
 When the app needs to look up a product it does not already have on
-your device, it sends the product's barcode to **Open Food Facts**, a
-non-profit open-data project. Open Food Facts therefore sees that
-someone (your IP address, the request timing) asked about that
-barcode. Open Food Facts is a separate organization with its own
-privacy practices: <https://world.openfoodfacts.org/>.
+your device, **the app causes your device to send the product's
+barcode directly to Open Food Facts**, a non-profit open-data project.
+Open Food Facts receives that request directly from your device —
+including its source IP address and the request timing — and operates
+under its own privacy practices: <https://world.openfoodfacts.org/>.
+Skyline does not receive that request and does not control what Open
+Food Facts does with it.
 
-That outbound Open Food Facts call is the only data plane
-Veganalysis initiates on its own. There is one additional path,
+That direct outbound call to Open Food Facts is the only data plane
+the app initiates on its own. There is one additional path,
 **user-initiated only**, described next.
 
 ## Voluntary feedback submission
@@ -36,8 +41,10 @@ client: **"Send Feedback"** (which packages scans you have
 flagged in-app into a feedback bundle) and **"Report a Problem"**
 (a free-text draft for general app problems, with no attached
 scan data). **In both cases, the contents you compose are
-received by us via your email client. This is voluntary and
-user-initiated; no other data is collected.**
+received by Skyline through its legal/support email account via your
+own email client; the message may be reviewed by Skyline personnel or
+by service providers assisting Skyline with support. This is
+voluntary and user-initiated; no other data is collected.**
 
 The "Send Feedback" bundle contains only the scans you have
 flagged in-app (either to report a verdict you disagree with, or
@@ -137,22 +144,51 @@ no advertising.
 
 ## Children
 
-Veganalysis is not directed at children under 13. Because Veganalysis
-does not collect any personal information from any user, it does not
-knowingly collect personal information from children either. Skyline
-Trail Computing has no mechanism by which any user, of any age, could
-provide personal information through this app.
+Veganalysis is not directed at children under 13, and Skyline Trail
+Computing does not knowingly collect personal information from
+children under 13 in connection with this app. The federal
+**Children's Online Privacy Protection Act of 1998 ("COPPA")**
+governs the online collection of personal information from children
+under 13 in the United States.
+
+Skyline has designed the app so that no personal information about
+any user, child or adult, is collected by Skyline in connection with
+ordinary use of the app. The only path by which a user could provide
+personal information to Skyline is the voluntary feedback flow
+described above, which requires the user to compose and send a
+message from their own email client.
+
+If Skyline learns that it has received personal information from a
+child under 13 through a voluntary feedback submission, Skyline will
+delete that information from its records.
 
 ## Your rights (GDPR, CCPA, Colorado CPA, and similar)
 
-Various jurisdictions give you rights over personal information about
-you that a company holds. **Skyline Trail Computing holds no personal
-information about you.** There is therefore nothing for us to
-disclose, correct, port, or delete on request.
+Various jurisdictions give you rights — including rights of access,
+correction, portability, and deletion — over personal information
+about you that a company collects or holds.
 
-Open Food Facts, as a separate data processor, has its own
-obligations and processes regarding any data they receive — see their
-privacy policy.
+**Skyline Trail Computing does not receive, store, or control
+personal information about you in connection with your use of
+Veganalysis.** Because Skyline does not hold personal information
+about you, there is nothing for Skyline to disclose, correct, port,
+or delete on request with respect to its own records. To the extent
+applicable data-protection law gives you rights against Skyline for
+data Skyline does control, Skyline will honor those rights to the
+extent required by law.
+
+Skyline does not sell or share personal information for targeted
+advertising and does not use personal information for advertising,
+analytics, profiling, or monetization.
+
+**Open Food Facts** is a separate organization. When the app sends a
+barcode lookup directly from your device to Open Food Facts (see the
+Summary above), Open Food Facts receives that request as an
+independent controller and is separately responsible for its own
+data-protection obligations regarding that data. Any access,
+correction, or deletion requests for data Open Food Facts receives
+directly from your device should be directed to Open Food Facts under
+its own privacy policy.
 
 ## Changes to this policy
 
@@ -174,3 +210,9 @@ guarantee, and it is not designed for allergen safety.** People with
 allergies must contact the manufacturer for definitive ingredient and
 cross-contact information. The in-app disclaimers and the App Store
 listing carry the app's accuracy and allergen disclaimers in full.
+
+For the terms under which the app is licensed to you — including
+warranty disclaimers, limitation of liability, indemnification,
+arbitration, and the 30-day arbitration opt-out — see the Veganalysis
+**End User License Agreement** at
+<https://skylinetrailcomputing.github.io/veganalysis-legal/eula.html>.
