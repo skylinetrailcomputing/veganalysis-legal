@@ -39,18 +39,6 @@ granted in this Agreement.
 
 ## 2. Restrictions
 
-<!--
-CLEMENT REVIEW (§2 placement of reliance prohibition):
-The last bullet of this Restrictions section ("you will not rely on
-the App for any allergen, medical, or other safety-critical
-decision") is intentionally placed here, rather than only in §5
-Disclaimers, in order to trigger §7 indemnification on breach
-("use of the App in violation of this Agreement"). Please confirm
-the dual-placement enforceability play under Colorado law and across
-major US state-law surfaces, or advise whether to move to §5 only,
-duplicate in both §2 and §5, or use a different structure.
--->
-
 You agree that you will not, and will not permit any third party to:
 
 - copy, modify, adapt, translate, or create derivative works of the
@@ -114,6 +102,9 @@ App-specific disclaimers apply. **Each is a material term of this
 Agreement.** If you do not accept any of them, you must not use the
 App.
 
+> **Veganalysis is informational only. You must not rely on the App's
+> output for any allergen, medical, or other safety-critical decision.**
+
 ### 5.1 Accuracy
 
 Veganalysis identifies likely non-vegan ingredients from text it
@@ -137,6 +128,9 @@ not a softer form of **Vegan** and that you will not treat it as
 such.
 
 ### 5.2 Not for allergen safety
+
+> **Allergen-sensitive users: do not use Veganalysis to decide whether
+> a product is safe to consume.**
 
 **Veganalysis is not designed or intended for allergen safety, and
 you must not rely on it for that purpose.** The absence of an
@@ -200,7 +194,7 @@ AGGREGATE LIABILITY OF SKYLINE AND ITS MEMBERS, MANAGERS, OFFICERS,
 EMPLOYEES, AGENTS, AND AFFILIATES ARISING OUT OF OR RELATING TO THE
 APP OR THIS AGREEMENT IS LIMITED TO THE GREATER OF (A) THE AMOUNT
 YOU PAID FOR THE APP (WHICH IS ZERO, AS THE APP IS PROVIDED FREE OF
-CHARGE) OR (B) ONE HUNDRED UNITED STATES DOLLARS ($100.00 USD).
+CHARGE) OR (B) FIVE HUNDRED UNITED STATES DOLLARS ($500.00 USD).
 
 Some jurisdictions do not allow the limitation or exclusion of
 liability for incidental or consequential damages. In those
@@ -215,8 +209,10 @@ officers, employees, agents, and affiliates from and against any
 third-party claims, damages, liabilities, losses, costs, and expenses
 (including reasonable attorneys' fees) arising out of or related to:
 (a) your use of the App in violation of this Agreement; (b) your
-violation of any applicable law; or (c) your violation of the rights
-of any third party.
+violation of any applicable law; (c) your violation of the rights of
+any third party; or (d) your reliance on App output for any allergen,
+medical, dietary, safety-critical, or other decision contrary to this
+Agreement.
 
 ## 8. Feedback
 
@@ -299,13 +295,30 @@ To the maximum extent permitted by applicable law, you and Skyline
 agree that any dispute, claim, or controversy arising out of or
 relating to this Agreement, the App, or any information made
 available through the App ("Dispute") will be resolved by binding
-individual arbitration rather than in court, except that either
-party may bring an individual claim in small-claims court if the
-claim qualifies. Arbitration will be administered by a nationally
-recognized arbitration provider (such as the American Arbitration
-Association or JAMS) under that provider's then-current consumer
-arbitration rules, with the seat of arbitration in Denver, Colorado
-unless you and Skyline agree otherwise.
+individual arbitration rather than in court.
+
+Arbitration will be administered by the **American Arbitration
+Association ("AAA")** under the AAA's then-current **Consumer
+Arbitration Rules**. This Section is intended to comply with the
+AAA's **Consumer Due Process Protocol** and the **Consumer Minimum
+Standards** referenced in the Consumer Arbitration Rules, including
+the allocation of administrative fees between consumer and business
+parties. If the AAA declines to administer the arbitration, you and
+Skyline will agree on a substitute nationally recognized arbitration
+provider that publishes consumer-arbitration rules substantially
+comparable to those of the AAA.
+
+The seat of arbitration is Denver, Colorado, unless you and Skyline
+agree otherwise. The arbitrator may, as the arbitrator determines
+appropriate, conduct the arbitration by remote video conference, by
+telephone, or solely on the documents.
+
+**Small-claims carve-out.** Either party may bring an individual
+claim in a small-claims court of competent jurisdiction (including,
+where required by applicable law, in the small-claims court of the
+consumer's home jurisdiction) if the claim qualifies. Bringing or
+participating in such a small-claims action does not waive any other
+provision of this Agreement.
 
 ### 11.2 Class-action and class-arbitration waiver
 
@@ -328,9 +341,11 @@ Agreement remain in full force and effect.
 
 This Section 11 does not apply to: (a) any claim or remedy that
 cannot be subject to binding arbitration or class-action waiver
-under applicable law (including, where applicable, claims for
-public injunctive relief); or (b) intellectual-property
-infringement claims brought by either party.
+under applicable law (including, without limitation, any claim for
+public injunctive relief to the extent such claim cannot be waived
+or compelled to individual arbitration under applicable law); or
+(b) intellectual-property infringement claims brought by either
+party.
 
 Some jurisdictions do not enforce all aspects of arbitration or
 class-action-waiver provisions. In those jurisdictions this Section
