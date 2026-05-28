@@ -1,6 +1,6 @@
 # Privacy Policy — Veganalysis
 
-**Last updated:** 2026-05-12
+**Last updated:** 2026-05-27
 **Effective:** _(set when Veganalysis is first distributed beyond the
 developer's own devices)_
 
